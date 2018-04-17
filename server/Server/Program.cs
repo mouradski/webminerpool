@@ -519,6 +519,11 @@ namespace Server {
 
         public static void Main (string[] args) {
 
+
+			Settings.LoadSettings ();
+
+			return;
+
             //ExcessiveHashTest(); return;
 
             CConsole.ColorInfo (() => {
