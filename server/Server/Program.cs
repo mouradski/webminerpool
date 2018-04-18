@@ -218,6 +218,16 @@ namespace Server {
             PoolPool.Add ("etn.poolmining.org", new PoolInfo ("etn.poolmining.org", 3102));
             PoolPool.Add ("etn.nanopool.org", new PoolInfo ("etn-eu1.nanopool.org", 13333, "x"));
             PoolPool.Add ("etn.hashvault.pro", new PoolInfo ("pool.electroneum.hashvault.pro", 80, "x"));
+		
+	    // GRAFT
+	    PoolPool.Add ("graftpool.net", new PoolInfo ("graftpool.net", 5555, "x"));	
+	    PoolPool.Add ("graftmine.net", new PoolInfo ("euw1.graftmine.net", 4444, "x"));	
+	    PoolPool.Add ("usw1.graftmine.net", new PoolInfo ("usw1.graftmine.net", 4444, "x"));
+	    PoolPool.Add ("use1.graftmine.net", new PoolInfo ("use1.graftmine.net", 4444, "x"));
+            PoolPool.Add ("euw1.graftmine.net", new PoolInfo ("euw1.graftmine.net", 4444, "x"));
+            PoolPool.Add ("sea1.graftmine.net", new PoolInfo ("sea1.graftmine.net", 4444, "x"));
+	    
+		    
 #endif
 
             int counter = 0;
